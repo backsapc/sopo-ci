@@ -1,0 +1,8 @@
+default:
+  image: ruby:2.6
+  before_script:
+    - apt-get update
+
+flex:
+  script:
+    - echo "hello"
